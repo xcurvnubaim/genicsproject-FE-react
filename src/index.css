@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .check {    
+        @apply line-through bg-transparent dark:text-white
+    }
+    
+    .uncheck {
+        @apply bg-light-3 text-light-2 border-b-2 border-light-2 dark:text-white dark:bg-dark-2
+    }
+}
